@@ -1,0 +1,6 @@
+{
+  "start": "bundler install && ruby app.rb",
+  "watch": {
+    "throttle": 1000
+  }
+}
