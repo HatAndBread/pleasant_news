@@ -10,12 +10,18 @@
     <title>Randomized news</title>
 </head>
 <body>
-<h1>The Randomly Generated News Machine</h1>
+<div class="title">
+  <h1>The Pleasant News Machine</h1>
+</div>
+<div class="main">
 <h2><%=@message%></h2>
+<div class="article-container">
 <% @articles.each do |article| %>
-    <div class="article-card">
-        <a href="/articles/<%=article.id%>"><%= article.title%></a>
+    <div >
+        <a class="article-card" href="/articles/<%=article.id%>"><%= article.title%><br><div class="emoji"><%=article.emoji%></div></a>
     </div>
 <%end%>
+</div>
+</div>
 </body>
 </html>

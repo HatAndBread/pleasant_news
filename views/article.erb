@@ -3,12 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type = "text/css" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@600&display=swap" rel="stylesheet">
+    <script src="/index.js" defer></script>
     <title><%=@article.title%></title>
 </head>
 <body>
 <h1><%=@article.title%></h1>
+<button id="speak_butt">Read me a story 🗣</button>
+<button id="cancel_butt">Stop speaking 🙊</button>
 <article>
-    <p><%=@article.body%></p>
+    <p id="main_body"><%=@article.body%></p>
 </article>
 </body>
 </html>
