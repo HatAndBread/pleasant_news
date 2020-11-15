@@ -40,7 +40,6 @@ class WordList
       [' gun ', ' umbrella '],
       [' guns ', ' hugs '],
       ['resident', 'horse'],
-      [' new ', ' beautiful '],
       ['death', 'sleepy time'],
       ['died', 'went to bed'],
       [' dies ', ' sleeps '],
@@ -439,7 +438,13 @@ class WordList
       ['legislation', 'cake'],
       ['chokehold', 'hug'],
       ['econmy', 'fairy dust'],
-      ['debt', 'wealth and good cheer']
+      ['debt', 'wealth and good cheer'],
+      ['assaulted', 'hugged'],
+      ['assault', 'hug'],
+      ['clinton', 'Santa'],
+      ['data', 'Christmas story'],
+      ['health', 'sleep'],
+      ['impoverished', 'satisfied']
 
 
     ]
