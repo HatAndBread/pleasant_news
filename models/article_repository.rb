@@ -6,6 +6,7 @@ require_relative 'article'
 
 class ArticleRepository
   attr_accessor :links, :recent_articles
+
   def initialize
     @links = []
     @url = 'https://text.npr.org'

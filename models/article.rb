@@ -5,9 +5,12 @@ require_relative 'words_list'
 require_relative 'emoji'
 
 class Article
+
+  @@id = 0
   attr_accessor :url, :title, :body, :date, :emoji, :id
   def initialize(attributes = {})
-    @id = rand(1..99999)
+    @@id += 1
+    @id = @@id
     @url = attributes[:url]
     @title = attributes[:title]
     @body = attributes[:body]

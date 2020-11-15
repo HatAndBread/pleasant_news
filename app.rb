@@ -23,7 +23,7 @@ get '/articles/:id' do
 end
 
 
-scheduler.every '6h' do
+scheduler.every '3h' do
   article_repository.get_links
   puts 'Creating new articles...'
   article_repository.create_articles

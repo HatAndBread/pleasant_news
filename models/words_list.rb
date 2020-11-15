@@ -444,7 +444,8 @@ class WordList
       ['clinton', 'Santa'],
       ['data', 'Christmas story'],
       ['health', 'sleep'],
-      ['impoverished', 'satisfied']
+      ['impoverished', 'satisfied'],
+      ['nation', 'gingerbread house']
 
 
     ]
