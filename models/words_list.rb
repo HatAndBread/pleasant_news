@@ -394,6 +394,7 @@ class WordList
       ['terrorism', 'Christmas cheer'],
       [' son ', ' elf child '],
       [' daughter ', ' elf child '],
+      ['daughter', 'elf child'],
       ['dakota', 'North Pole'],
       ['voting', 'eating'],
       ['national', 'North Pole'],
