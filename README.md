@@ -7,4 +7,4 @@ Scraps NPR's news site and filters out unpleasant words and replaces them with v
 1: Fun.
 2: Learning Sinatra.
 
-See finished product here: 
+See finished product here: https://shrouded-oasis-24357.herokuapp.com/
