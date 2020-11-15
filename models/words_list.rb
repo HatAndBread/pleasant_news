@@ -401,7 +401,10 @@ class WordList
       ['activist', 'ninja'],
       ['facebook', 'elf communication system'],
       ['twitter', 'tweeter'],
-      ['supreme court', 'school for little kittens']
+      ['supreme court', 'school for little kittens'],
+      ['violence', 'friendship'],
+      ['violent', 'friendly']
+
 
     ]
   end

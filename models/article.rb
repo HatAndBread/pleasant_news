@@ -5,9 +5,9 @@ require_relative 'words_list'
 require_relative 'emoji'
 
 class Article
-  attr_accessor :url, :title, :body, :date, :id, :emoji
+  attr_accessor :url, :title, :body, :date, :emoji, :id
   def initialize(attributes = {})
-    @id = attributes[:id]
+    @id = rand(1..99999)
     @url = attributes[:url]
     @title = attributes[:title]
     @body = attributes[:body]
@@ -31,7 +31,3 @@ class Article
   end
 end
 
-# yo = Article.new({ id: 1, url: 'sdfads', title: 'Coronavirus is awesome!', body: 'trump is so cool!', date: Time.now })
-
-# puts yo.title
-# puts yo.body

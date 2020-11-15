@@ -8,10 +8,8 @@ scheduler = Rufus::Scheduler.new
 
 article_repository = ArticleRepository.new
 
-article_repository.retrieve_recent
 article_repository.get_links
 article_repository.create_articles
-article_repository.db_too_big?
 
 get '/' do
   @message = 'Tired of the news? The Pleasant News Machine automatically cleanses current news articles of all unpleasantries to ensure that you have a lovely day! 🎅💖'
@@ -26,10 +24,8 @@ end
 
 
 scheduler.every '6h' do
-  puts 'Getting new links...'
   article_repository.get_links
   puts 'Creating new articles...'
   article_repository.create_articles
   p article_repository.recent_articles
-  article_repository.db_too_big?
 end
